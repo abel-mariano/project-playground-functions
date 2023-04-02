@@ -1,3 +1,4 @@
+// 1 - Crie uma função usando o operador &&
 // Desafio 1 - Crie a função compareTrue / Challenge 1 - Create the compareTrue function
 function compareTrue(god1, god2) {
   if (god1 === true && god2 === true) {
@@ -6,11 +7,13 @@ function compareTrue(god1, god2) {
   return false;
 }
 
+// 2 - Crie uma função que divida uma frase
 // Desafio 2 - Crie a função splitSentence / Challenge 2 - Create the splitSentence function
 function splitSentence(phrase) {
   return phrase.split(' ');
 }
 
+// 3 - Crie uma função que use concatenação de strings
 // Desafio 3 - Crie a função concatName / Challenge 3 - Create the concatName function
 function concatName(array) {
   let projectArray = array;
@@ -18,12 +21,14 @@ function concatName(array) {
   return lastAndFirst;
 }
 
+// 4 - Crie uma função que calcula a quantidade de pontos em um campeonato de futebol
 // Desafio 4 - Crie a função footballPoints / Challenge 4 - Create the footballPoints function
 function footballPoints(wins, ties) {
   let qtyPoints = (wins * 3) + ties;
   return qtyPoints;
 }
 
+// 5 - Crie uma função que calcula o número de repetições do maior número
 // Desafio 5 - Crie a função highestCount / Challenge 5 - Create the highestCount function
 function highestCount(array) {
   let higherNumber = Math.max(...array);
@@ -37,6 +42,7 @@ function highestCount(array) {
   return qtyRepeated;
 }
 
+// 6 - Crie 3 funções para calcular as áreas de um triângulo e de um retângulo
 // Desafio 6 - Crie as funções calcTriangleArea, calcRectangleArea e calcAllAreas / Challenge 6 - Create calcTriangleArea, calcRectangleArea and calcAllAreas functions
 function calcTriangleArea(base, height) {
   return (base * height) / 2;
@@ -55,6 +61,7 @@ function calcAllAreas(base, height, form) {
   return 'Não foi possível fazer o cálculo, insira uma forma geométrica válida';
 }
 
+// 7 - Crie uma função de Caça ao Rato
 // Desafio 7 - Crie a função catAndMouse / Challenge 7 - Create the catAndMouse function
 function catAndMouse(mouse, cat1, cat2) {
   let catOne = Math.abs(cat1 - mouse);
@@ -67,6 +74,7 @@ function catAndMouse(mouse, cat1, cat2) {
   return 'os gatos trombam e o rato foge';
 }
 
+// 8 - Crie uma função FizzBuzz
 // Desafio 8 - Crie a função fizzBuzz / Challenge 8 - Create the fizzBuzz function
 function fizzBuzz(array) {
   for (let index = 0; index < array.length; index += 1) {
@@ -85,6 +93,7 @@ function fizzBuzz(array) {
   return array;
 }
 
+// 9 - Crie uma função que Codifique e Decodifique
 // Desafio 9 - Crie a função encode e a função decode / Challenge 9 - Create encode function and decode function
 function encode(string) {
   const lettersToNumbers = { a: 1, e: 2, i: 3, o: 4, u: 5 };
@@ -99,6 +108,7 @@ function decode(string) {
 }
 // Referência: https://stackoverflow.com/questions/16576983/replace-multiple-characters-in-one-replace-call
 
+// 10 - Crie uma função de Lista de Tecnologias
 // Desafio 10 - Crie a função techList / Challenge 10 - Create the techList function
 function techList(technologies, names) {
   let array = [];

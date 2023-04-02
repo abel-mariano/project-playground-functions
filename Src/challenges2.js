@@ -1,3 +1,4 @@
+// 11 - Crie uma função de número de telefone
 // Desafio 11 - Crie a função generatePhoneNumber / Challenge 11 - Create the generate Phone Number function
 function size(array) {
   for (let number of array) {
@@ -29,6 +30,7 @@ function generatePhoneNumber(array) {
   return phoneNumber;
 }
 
+// 12 - Crie uma função que teste a condição de existência de um triângulo
 // Desafio 12 -  Crie a função triangleCheck / Challenge 12 - Create the triangleCheck function
 function triangleCheck(lineA, lineB, lineC) {
   if (lineA < (lineB + lineC) && lineA > Math.abs(lineB - lineC)) {
@@ -37,6 +39,7 @@ function triangleCheck(lineA, lineB, lineC) {
   return false;
 }
 
+// 13 - Crie uma função de boas vindas ao Bar da Trybe!
 // Desafio 13 - Crie a função hydrate / Challenge 13 - Create the hydrate function
 function hydrate(string) {
   let find = /\d+/g;
